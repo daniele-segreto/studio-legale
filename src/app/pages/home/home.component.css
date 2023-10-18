@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
+
+.banner-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: #90C2E7;
+  color: whitesmoke;
+  padding: 20px; /* Ridotto il padding per dispositivi più piccoli */
+  width: 100%; /* Cambiato da 90% a 100% per dispositivi più piccoli */
+  font-size: 20px; /* Ridotto il font-size per dispositivi più piccoli */
+  /* font-family: 'Sawarabi Gothic', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.col-sx {
+  margin-left: 0px;
+}
+.col-dx {
+  margin-right: 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 28px;
+}
+
+.section-2 {
+  background-color: #90C2E7;
+  height: 500px;
+}
+
+@media (min-width: 1000px){
+  .overlay {
+    font-size: 40px;
+    padding: 50px;
+    width: 90%;
+  }
+
+  .col-sx {
+    margin-left: 90px;
+  }
+  .col-dx {
+    margin-right: 90px;
+  }
+
+  h2 {
+    margin-top: 0px;
+    font-weight: bold;
+  }
+
+  section {
+    margin-top: 150px;
+  }
+}

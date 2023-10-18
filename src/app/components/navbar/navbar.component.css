@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
+
+nav {
+  padding: 30px;
+  background-color: #0E182B !important;
+}
+
+li a {
+  color: whitesmoke;
+  margin-right: 100px;
+  margin-top: 7px;
+  font-size: 18px;
+  /* font-family: 'Sawarabi Gothic', sans-serif; */
+  font-family: 'Inter', sans-serif;
+}
+
+li a:hover {
+  color: #90C2E7;
+}
+
+.active {
+  color: #90C2E7 !important;
+  font-weight: bolder;
+}
+
+.navbar-toggler {
+  color: whitesmoke;
+}
+
+.navbar-toggler-icon {
+  color: whitesmoke !important;
+}
+
+@media (min-width: 768px){
+  .nav-item {
+    margin-right: 0px;
+  }
+  li a {
+    margin-top: 0px;
+  }
+}
