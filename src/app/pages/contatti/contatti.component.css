@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
+
+/* Tutte le intestazioni h3 */
+h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Tutti gli elementi della lista */
+li {
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Tutti gli ancor */
+a {
+  color: black;
+}
+a:hover {
+  color: #143778;
+}
+
+/* Sezione1: Contattaci */
+.contattaci-container {
+  margin-top: 40px;
+}
+
+/* Sezione 2: Vienici a Trovare */
+.mappa-container {
+  margin-top: 120px;
+}
+
+/* Mappa */
+iframe {
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+/* Sezione TaskList */
+.task-section {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/* Intestazione h2 (Task List) */
+h2 {
+  font-size: 40px;
+  margin-bottom:20px;
+}
+
+/* Tasto TaskList */
+.btn {
+  background-color: #0E182B;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+/* Paragrafo TaskList */
+p {
+  font-size: 20px;
+}

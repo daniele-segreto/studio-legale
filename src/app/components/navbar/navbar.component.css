@@ -10,7 +10,8 @@ li a {
   color: whitesmoke;
   margin-right: 100px;
   margin-top: 7px;
-  font-size: 18px;
+  font-size: 14px;
+  width: 100%;
   /* font-family: 'Sawarabi Gothic', sans-serif; */
   font-family: 'Inter', sans-serif;
 }

@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ChisonoComponent } from './pages/chisono/chisono.component';
 import { ContattiComponent } from './pages/contatti/contatti.component';
 import { PrenotaComponent } from './pages/prenota/prenota.component';
+import { TasklistComponent } from './components/tasklist/tasklist.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PrenotaComponent } from './pages/prenota/prenota.component';
     HomeComponent,
     ChisonoComponent,
     ContattiComponent,
-    PrenotaComponent
+    PrenotaComponent,
+    TasklistComponent
   ],
   imports: [
     BrowserModule,

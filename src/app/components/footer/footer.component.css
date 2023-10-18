@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
 
+/* Riga del footer */
 .foot {
   background-color: #0E182B;
   color: whitesmoke;
   padding: 70px;
   font-family: 'Inter', sans-serif;
+  margin-bottom: 100px;
 }
 
+/* Elementi della lista */
 li {
   text-decoration: none;
   list-style-type: none;
   cursor: pointer;
   margin: 10px 0;
 }
-
+/* Hover degli elementi della lista */
 li:hover {
   color: #90C2E7;
 }
 
+/* Tutto gli anchor */
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* }Hover a tutti gli anchor */
+li a:hover {
+  color: #90C2E7;
+}
+
+/* Active */
 .active {
   color: #90C2E7 !important;
   font-weight: bolder;

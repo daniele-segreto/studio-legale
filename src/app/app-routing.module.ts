@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ChisonoComponent } from './pages/chisono/chisono.component';
 import { ContattiComponent } from './pages/contatti/contatti.component';
 import { PrenotaComponent } from './pages/prenota/prenota.component';
+import { TasklistComponent } from './components/tasklist/tasklist.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'contatti',
     component: ContattiComponent
+  },
+  {
+    path: 'tasklist',
+    component: TasklistComponent
   },
   {
     path: 'prenota',

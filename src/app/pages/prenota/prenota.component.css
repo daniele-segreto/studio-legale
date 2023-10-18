@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
+
+/* Contenitore Baner */
+.banner-container {
+  position: relative;
+  display: inline-block;
+}
+/* Testo inserito sul Banner */
+.overlay {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: #90C2E7;
+  color: whitesmoke;
+  padding: 20px; /* Ridotto il padding per dispositivi più piccoli */
+  width: 100%; /* Cambiato da 90% a 100% per dispositivi più piccoli */
+  font-size: 20px; /* Ridotto il font-size per dispositivi più piccoli */
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+/* Sezione del Form */
+.contenitore-form-section {
+  background-color: #90C2E7;
+  padding: 150px 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+/* L'intestazione h3 */
+h3 {
+  font-weight: bold;
+}
+
+/* Tasto Invia */
+.btn {
+  background-color: #0E182B;
+  color: whitesmoke;
+}
+
+/* RESPONSIVE */
+@media (min-width: 1245px){
+  /* Testo inserito sul Banner */
+  .overlay {
+    font-size: 40px;
+    padding: 50px;
+    width: 90%;
+  }
+}

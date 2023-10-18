@@ -1,11 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
 
+/* Contenitore Baner */
 .banner-container {
   position: relative;
   display: inline-block;
 }
-
+/* Testo inserito sul Banner */
 .overlay {
   position: absolute;
   top: 70%;
@@ -15,58 +15,106 @@
   padding: 20px; /* Ridotto il padding per dispositivi più piccoli */
   width: 100%; /* Cambiato da 90% a 100% per dispositivi più piccoli */
   font-size: 20px; /* Ridotto il font-size per dispositivi più piccoli */
-  /* font-family: 'Sawarabi Gothic', sans-serif; */
   font-family: 'Inter', sans-serif;
   font-weight: bold;
 }
 
-section {
+/* Sezione 1: Competenza è la nostra politica */
+.section-1 {
   margin-top: 60px;
+  margin-bottom: 150px;
 }
 
+/* Colonna di sinistra (sezione 1) */
 .col-sx {
   margin-left: 0px;
 }
+/* Colonna di destra (sezione 1) */
 .col-dx {
   margin-right: 0px;
   font-family: 'Inter', sans-serif;
 }
 
+/* Tutti le intestazioni h2 */
 h2 {
   margin-bottom: 40px;
   margin-top: 40px;
   font-weight: bold;
 }
-
+/* Tutti i paragrafi */
 p {
-  font-size: 28px;
+  font-size: 23px;
 }
 
+/* Sezione 2: La nostra filosofia */
 .section-2 {
   background-color: #90C2E7;
-  height: 500px;
+  padding: 70px;
+}
+/* Contentitore delle icone */
+.icon-content-container {
+  display: block;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+/* Contenitore della singola icona */
+.icon-content {
+  background-color: #0E182B;
+  margin: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 19px 30px 0;
+  box-shadow: 2px 2px 4px;
+}
+/* Icone contenuta nella sezione 2 (relativa alla filosofia aziendale) */
+.icone-filosofia {
+  width: 30%;
 }
 
-@media (min-width: 1000px){
+/* RESPONSIVE */
+@media (min-width: 1245px){
+  /* Testo inserito sul Banner */
   .overlay {
     font-size: 40px;
     padding: 50px;
     width: 90%;
   }
-
+  /* Sezione 1: Competenza è la nostra politica */
+  .section-1 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  /* Colonna di sinistra (sezione 1) */
   .col-sx {
     margin-left: 90px;
   }
+  /* Colonna di destra (sezione 1) */
   .col-dx {
     margin-right: 90px;
   }
-
+  /* Tutte le intestazioni h2 */
   h2 {
     margin-top: 0px;
     font-weight: bold;
   }
+}
 
-  section {
-    margin-top: 150px;
+@media (max-width: 1310px) {
+  /* Sezione 1: Competenza è la nostra politica */
+  .section-1 {
+    margin-bottom: 10px;
+  }
+  /* Colonne Sezione 1 */
+  .col-dx h2, .col-dx p {
+    font-size: 15px;
+  }
+  /* Sezione 2: La nostra filosofia */
+  .section-2 {
+    padding: 25px;
+  }
+  /* Contentitore delle icone */
+  .icon-content-container {
+    display: none;
   }
 }
