@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sawarabi+Gothic&display=swap');
+
+/* Contenitore Baner */
+.banner-container {
+  position: relative;
+  display: inline-block;
+}
+/* Testo inserito sul Banner */
+.overlay {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: #0E182B;
+  color: whitesmoke;
+  padding: 20px; /* Ridotto il padding per dispositivi più piccoli */
+  width: 100%; /* Cambiato da 90% a 100% per dispositivi più piccoli */
+  font-size: 20px; /* Ridotto il font-size per dispositivi più piccoli */
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+/* Sezione del Form */
+.form-section {
+  background-color: #90C2E7;
+  padding: 150px 40px;
+  margin-top: 110px;
+  margin-bottom: 110px
+}
+
+/* Intestazione h2: Aggiungi nuovo task */
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 47px;
+  margin-bottom: 33px;
+}
+
+/* Tasto Aggiungi */
+.btn {
+  background-color: #0E182B;
+  color: whitesmoke;
+}
+
+/* Card */
+.card {
+    background-color: #90C2E7;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 110px;
+    margin-top: -70px;
+}
+
+/* Titolo della Card */
+.card-title {
+  background-color: #0E182B;
+  color: whitesmoke;
+  padding: 20px 30px;
+}
+
+/* Corpo della Card */
+.card-body {
+  padding: 30px 50px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 1245px){
+  /* Testo inserito sul Banner */
+  .overlay {
+    font-size: 40px;
+    padding: 50px;
+    width: 90%;
+  }
+}

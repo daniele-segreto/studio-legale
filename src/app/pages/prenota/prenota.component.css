@@ -40,6 +40,18 @@ h3 {
   color: whitesmoke;
 }
 
+/* SweetAlert */
+/* .custom-confirm-button-class {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.custom-confirm-button-class:hover {
+  background-color: #0056b3;
+} */
+
 /* RESPONSIVE */
 @media (min-width: 1245px){
   /* Testo inserito sul Banner */

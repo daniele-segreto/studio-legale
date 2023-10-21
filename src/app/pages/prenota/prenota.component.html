@@ -19,29 +19,35 @@
   </div>
   <!-- Colonna di destra: Form -->
   <div class="col-lg-4 col-dx ms-lg-5">
-    <form>
+    <!-- Form -->
+    <form #myForm (submit)="inviaDati($event)">
       <!-- Nome -->
       <div class="mb-3">
-        <input type="text" class="form-control" placeholder="Nome">
+        <input id="nome" type="text" class="form-control" placeholder="Nome">
       </div>
       <!-- Cognome -->
       <div class="mb-3">
-        <input type="text" class="form-control" placeholder="Cognome">
+        <input id="cognome" type="text" class="form-control" placeholder="Cognome">
       </div>
       <!-- Numero -->
       <div class="mb-3">
-        <input type="text" class="form-control" placeholder="Numero">
+        <input id="numero" type="text" class="form-control" placeholder="Numero">
       </div>
       <!-- Email -->
       <div class="mb-3">
-        <input type="email" class="form-control" placeholder="Email">
+        <input id="email" type="email" class="form-control" placeholder="Email">
       </div>
       <!-- Text-Area -->
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Lascia un messaggio" style="height: 100px"></textarea>
+        <textarea id="messaggio" class="form-control" placeholder="Lascia un messaggio" style="height: 100px"></textarea>
       </div>
       <!-- Tasto Invia -->
       <button type="submit" class="btn border border-0 mt-2">INVIA</button>
     </form>
+
+    <!-- Messaggio di conferma (SweetAlert) -->
+    <div *ngIf="messaggioConferma">
+      {{ messaggioConferma }}
+    </div>
   </div>
 </section>

@@ -10,6 +10,8 @@ import { ChisonoComponent } from './pages/chisono/chisono.component';
 import { ContattiComponent } from './pages/contatti/contatti.component';
 import { PrenotaComponent } from './pages/prenota/prenota.component';
 import { TasklistComponent } from './components/tasklist/tasklist.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,14 @@ import { TasklistComponent } from './components/tasklist/tasklist.component';
     ChisonoComponent,
     ContattiComponent,
     PrenotaComponent,
-    TasklistComponent
+    TasklistComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

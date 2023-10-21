@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  img_banner: string = 'assets/img/studio.jpg';
+  title_banner_sx: string = 'LA NOSTRA GUIDA AFFIDABILE';
+  title_banner_dx: string = 'NEL MONDO DEL DIRITTO';
 
 }
