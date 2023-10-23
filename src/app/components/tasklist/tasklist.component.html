@@ -38,13 +38,18 @@
 </section>
 
 <!-- Sezione dei Task aggiunti (myCard) -->
-<section class="section-cards col-lg-6 offset-lg-3">
-  <div class="card border border-0" *ngFor="let task of tasks; let i = index">
-    <h5 class="card-title">{{ task.titolo }}</h5>
-    <div class="card-body">
-      <p class="card-text">{{ task.descrizione }}</p>
-      <i><b>{{ task.stato }} | {{ task.data | date:'dd-MM-yyyy' }}</b></i> <br>
-      <a class="btn border border-0 mt-lg-3" (click)="deleteTask(i)">ELIMINA</a>
+<section class="section-cards">
+  <div class="row">
+    <div class="col-lg-6" *ngFor="let task of tasks; let i = index; let even = even;">
+      <div class="card border border-0">
+        <h5 class="card-title">{{ task.titolo }}</h5>
+        <div class="card-body">
+          <p class="card-text">{{ task.descrizione }}</p>
+          <i><b>{{ task.stato }} | {{ task.data | date:'dd-MM-yyyy' }}</b></i> <br>
+          <a class="btn border border-0 mt-lg-3 btn-elimina" (click)="deleteTask(i)">ELIMINA</a>
+        </div>
+      </div>
+      <div *ngIf="!even" class="w-100"></div> <!-- Aggiunge un div pieno per separare le card in due colonne -->
     </div>
   </div>
 </section>

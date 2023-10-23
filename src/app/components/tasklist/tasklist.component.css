@@ -22,7 +22,7 @@
 /* Sezione del Form */
 .form-section {
   background-color: #90C2E7;
-  padding: 150px 40px;
+  padding: 50px 40px 60px;
   margin-top: 110px;
   margin-bottom: 110px
 }
@@ -43,10 +43,10 @@ h2 {
 
 /* Card */
 .card {
-    background-color: #90C2E7;
-    font-family: 'Inter', sans-serif;
-    margin-bottom: 110px;
-    margin-top: -70px;
+  background-color: #90C2E7;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 110px;
+  margin-top: -70px;
 }
 
 /* Titolo della Card */
@@ -61,6 +61,11 @@ h2 {
   padding: 30px 50px;
 }
 
+/* Tasto Elimina */
+.btn-elimina {
+  margin-top: 20px;
+}
+
 /* RESPONSIVE */
 @media (min-width: 1245px){
   /* Testo inserito sul Banner */
@@ -69,4 +74,16 @@ h2 {
     padding: 50px;
     width: 90%;
   }
+  /* Tasto Elimina */
+  .btn-elimina {
+    margin-top: 0;
+  }
+  /* Sezione del Form */
+  .form-section {
+    background-color: #90C2E7;
+    padding: 150px 40px;
+    margin-top: 110px;
+    margin-bottom: 110px
+  }
+
 }

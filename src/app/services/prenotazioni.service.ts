@@ -5,8 +5,7 @@ import { Firestore, getFirestore, collection, addDoc } from 'firebase/firestore/
 @Injectable({
   providedIn: 'root'
 })
-export class FirebaseService {
-
+export class PrenotazioniService {
   // Inizializza l'app Firebase con le credenziali specificateimport
   private app = initializeApp({
     apiKey: "AIzaSyCNg7hEkg5Bf8p0Il1r_gSNLNZJqGkSHAQ",
@@ -41,14 +40,5 @@ export class FirebaseService {
     console.log('Dati inviati con successo con ID:', docRef.id);
 
   }
-
-  // Metodo per inviare i task al Firestore Database
-  // code...
-
-  // Metodo per ottenere i dask dal Firestore Database
-  // code...
-
-  // Metodo per visualizzare sulla pagina i dati ottenuti dal Firestore Database
-  // code...
 
 }

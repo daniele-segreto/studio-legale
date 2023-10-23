@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FirebaseService } from 'src/app/services/firebase.service';
+import { PrenotazioniService } from 'src/app/services/prenotazioni.service';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -11,7 +11,7 @@ export class PrenotaComponent {
 
   messaggioConferma: string = '';
 
-  constructor(private firebaseService: FirebaseService) { }
+  constructor(private prenotazioniService: PrenotazioniService) { }
 
   async inviaDati(event: Event) {
     event.preventDefault();
@@ -23,7 +23,7 @@ export class PrenotaComponent {
     const messaggio = (<HTMLInputElement>document.getElementById('messaggio')).value;
 
     if (nome && cognome && numero && email && messaggio) {
-      await this.firebaseService.inviaPrenotazioniAlDatabase(nome, cognome, numero, email, messaggio);
+      await this.prenotazioniService.inviaPrenotazioniAlDatabase(nome, cognome, numero, email, messaggio);
 
       Swal.fire({
         icon: 'success',

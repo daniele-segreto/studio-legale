@@ -12,6 +12,8 @@ import { PrenotaComponent } from './pages/prenota/prenota.component';
 import { TasklistComponent } from './components/tasklist/tasklist.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AudioComponent } from './components/audio/audio.component';
+import { SponsorComponent } from './components/sponsor/sponsor.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContattiComponent,
     PrenotaComponent,
     TasklistComponent,
+    AudioComponent,
+    SponsorComponent,
   ],
   imports: [
     BrowserModule,
