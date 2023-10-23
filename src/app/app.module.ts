@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AudioComponent } from './components/audio/audio.component';
 import { SponsorComponent } from './components/sponsor/sponsor.component';
+import { QrcodeComponent } from './components/qrcode/qrcode.component';
 
 @NgModule({
   declarations: [
@@ -27,13 +28,14 @@ import { SponsorComponent } from './components/sponsor/sponsor.component';
     TasklistComponent,
     AudioComponent,
     SponsorComponent,
+    QrcodeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
