@@ -1,0 +1,11 @@
+Cose da sistemare/controllare:
+- Fonts (con grazie)
+- Validazioni
+- Contenuto generale all'inteno di variabili/oggetti TypeScript
+- Responsive
+- Servizio per i Task: "OK" <-----------
+- Servizio per le Prenotazioni: "OK" <-----------
+- Test per il Funzionamento Email con un indirizzo di posta elettronica reale: "OK" <-----------
+- Componente Audio: "OK" <-----------
+- Spazion sponsor/banner pubblicitari: "OK" <-----------
+- Apertura sponsor/banner con target="_blank": "OK" <-----------
