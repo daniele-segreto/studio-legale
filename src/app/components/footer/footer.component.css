@@ -36,3 +36,19 @@ li a:hover {
   color: #90C2E7 !important;
   font-weight: bolder;
 }
+
+@media (max-width: 767px) {
+  .foot {
+    padding: 30px;
+  }
+
+  .col-lg-3 {
+    flex-basis: 100%;  /* Rendi le colonne full-width su dispositivi mobili */
+    margin-bottom: 20px;
+  }
+
+  li {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}

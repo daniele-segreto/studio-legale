@@ -66,6 +66,11 @@ h2 {
   margin-top: 20px;
 }
 
+/* Titolo della Sezione Task */
+h2 {
+  font-size: 23px;
+}
+
 /* RESPONSIVE */
 @media (min-width: 1245px){
   /* Testo inserito sul Banner */
@@ -85,5 +90,7 @@ h2 {
     margin-top: 110px;
     margin-bottom: 110px
   }
-
+  h2 {
+    font-size: 37px;
+  }
 }

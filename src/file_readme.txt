@@ -1,8 +1,9 @@
 Cose da sistemare/controllare:
-- Fonts (con grazie)
+- Contenuto generale all'interno di variabili/oggetti TypeScript
+- Fonts, con grazie
 - Validazioni
-- Contenuto generale all'inteno di variabili/oggetti TypeScript
-- Responsive
+- Dettagli Responsive
+- Responsive: "OK" <-----------
 - Servizio per i Task: "OK" <-----------
 - Servizio per le Prenotazioni: "OK" <-----------
 - Test per il Funzionamento Email con un indirizzo di posta elettronica reale: "OK" <-----------
